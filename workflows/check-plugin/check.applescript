@@ -4,9 +4,7 @@ set cName to "xxx"
 set eId to "xxx"
 set pd to "xxx"
 
-if application "Google Chrome" is not running then
-  do shell script "open -a /Applications/Google\\ Chrome.app"
-end if
+do shell script "open -a /Applications/Google\\ Chrome.app"
 
 tell application "Google Chrome"
   open location "https://cloud.nueip.com"
