@@ -41,7 +41,7 @@ tell application "Google Chrome"
     tell process "Google Chrome" to keystroke return
   end tell
   activate
-  delay 0.8
+  delay 2
 
   execute front window's active tab javascript "document.getElementById('clockin').click();"
   activate
